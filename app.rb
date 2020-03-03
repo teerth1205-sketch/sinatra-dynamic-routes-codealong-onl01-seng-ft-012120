@@ -19,10 +19,10 @@ class App < Sinatra::Base
   end 
   
   get '/multiply/:num1/:num2' do 
-  @1 = params[:num1] 
-  @2 = params[:num2]
-  @3 = @1 * @2
-  @3
+  @num = params[:num1] 
+  @nums = params[:num2]
+  @numss = @num* @nums
+  @numss
   end 
   # Code your final two routes here:
 
